@@ -1,7 +1,6 @@
 version: '3'
 services:
   bot_kun:
-    build: .
     container_name: bot_kun
     volumes:
       - ./bot_files:/home/music/main/bot_files
