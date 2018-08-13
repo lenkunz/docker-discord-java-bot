@@ -4,8 +4,8 @@ services:
     container_name: bot_kun
     volumes:
       - ./bot_files:/home/music/main/bot_files
-    build: ./
-    # image: lenkunz/discord-java-bot
+    # build: ./
+    image: lenkunz/discord-java-bot
     
     stdin_open: true
     tty: true
