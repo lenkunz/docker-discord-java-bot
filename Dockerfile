@@ -10,5 +10,6 @@ VOLUME ["/home/music/main/"]
 
 COPY [ "start-script.sh", "/home/music" ]
 
-RUN chmod +x /home/music/start-script.sh
+RUN chmod 777 /home/music/start-script.sh
+RUN chmod 777 /home/music/main/bot_files
 ENTRYPOINT [ "/home/music/start-script.sh" ]
